@@ -116,8 +116,16 @@ nav{
     border: none;
     border: 1px solid black;
 }
+.btn-2:hover{
+    background-color: black;
+    transition: 1s;
+}
 .btn-2 a{
     font-weight: 600;
+}
+.btn-2:hover a{
+    color: white;
+    transition: 1s;
 }
 .fa-user-plus{
     display: none;
@@ -179,4 +187,27 @@ nav{
     .search{
         width: 60%;
     }
+}
+.sect{
+    padding-top: 20px;
+}
+.sect-cont{
+    padding: 50px;
+}
+.con-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.con-1 h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: #222222;
+    width: 30%;
+}
+
+.cnn1{
+    background-color: white;
+    height: 40vh;
 }
