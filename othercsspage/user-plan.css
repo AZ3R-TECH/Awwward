@@ -188,9 +188,9 @@ nav{
         width: 60%;
     }
 }
-
 .sect{
     padding-top: 20px;
+    margin-bottom: 100px;
 }
 .sect-cont{
     padding: 50px;
@@ -225,34 +225,22 @@ nav{
 .con-2{
     display: flex;
     gap: 1.5em;
+    margin-bottom: 80px;
 }
-@media (max-width: 1290px) {
+@media (max-width: 1253px) {
     .con-2{
         flex-direction: column;
     }
 }
-@media(max-width: 603px) {
-    .cnn-2{
-        padding: 20px;
-    }
-    .cnn-1{
-        padding: 20px;
-    }
-    .cn1{
-        padding: 20px;
-    }
-    .cn2{
-        padding: 20px;
-    }
-}
+/* first */
 .cnn-1{
-    background-color: white;
+    background-color: #222222;
     height: auto;
     padding: 50px;
-    width: 35%;
     border-radius: 15px;
+    width: 50%;
 }
-@media (max-width: 1290px) {
+@media (max-width: 1253px) {
     .cnn-1{
         width: 100%;
     }
@@ -261,186 +249,196 @@ nav{
     font-size: 32px;
     font-weight: 600;
     line-height: 41.6px;
-    width: 30%;
     margin-bottom: 50px;
+    color: white;
 }
 .tr{
     display: flex;
-    margin-bottom: 20px;
 }
 .tr p{
     font-size: 70px;
     font-weight: 700;
     line-height: normal;
+    color: white;
 }
- .cnn-1 a{
-    border: 1px solid black;
-    padding: 20px 60px;
+.cnn-1 a{
+    border: 1px solid white;
+    padding: 25px 70px;
     font-size: 18px;
     font-weight: 400;
     line-height: 72px;
     border-radius: 10px;
+    color: #fff;
 }
 .cnn-1 a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 1s;
-} 
-@media (max-width: 629px) {
+}
+@media (max-width: 389px) {
     .cnn-1 a{
-        padding: 20px 40px;
+        padding: 15px 50px;
+        font-size: 12px;
     }
 }
-@media (max-width: 396px){
-    .cnn-1 a{
-        padding: 10px 20px;
-    }
+.cnn-1 ul{
+    margin-top: 80px;
+    /* margin-bottom: 70px; */
 }
-.paste{
-    margin-top: 50px;
-}
-.paste p{
+.cnn-1 ul li{
+    color: white;
+    margin-bottom: 10px;
+    list-style-type: initial;
     font-size: 14px;
-    font-weight: 200;
-    line-height: 22px;
 }
+/* second */
 .cnn-2{
-    display: flex;
-    gap: 0px;
-    width: 100%;
-}
-@media (max-width: 1290px) {
-    .cnn-2{
-        flex-direction: column;
-    }
-}
-@media(max-width: 603px) {
-    .cnn-2{
-        padding: 0px;
-    }
-}
-.cn{
     background-color: #222222;
+    height: auto;
     padding: 50px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 40%;
-    
+    border-radius: 15px;
+    width: 50%;
 }
-@media (max-width: 1290px) {
-    .cn{
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 15px;
+@media (max-width: 1253px) {
+    .cnn-2{
         width: 100%;
     }
 }
-.cn h1{
-    font-size: 32px;
-    font-weight: 600;
-    color: #FFFFFF;
-    line-height: 41.6px;
-    margin-bottom: 50px;
-}
-.tr1{
+.tr{
     display: flex;
-    margin-bottom: 20px;
 }
-.tr1 p{
+.tr p{
     font-size: 70px;
     font-weight: 700;
     line-height: normal;
     color: white;
 }
-.cn a{
-    border: 1px solid #fff;
-    padding: 20px 90px;
+.cnn-2 a{
+    border: 1px solid white;
+    padding: 25px 50px;
     font-size: 18px;
     font-weight: 400;
     line-height: 72px;
     border-radius: 10px;
-    color: white;
+    color: #fff;
 }
-.cn a:hover{
+.cnn-2 a:hover{
     background-color: white;
     color: black;
     transition: 1s;
 }
-@media (max-width: 629px){
-    .cn a{
-        padding: 20px 70px;
+@media (max-width: 389px) {
+    .cnn-2 a{
+        padding: 15px 40px;
+        font-size: 12px;
     }
 }
-@media (max-width: 396px){
-    .cn a{
-        padding: 10px 30px;
-    }
+.cnn-2 ul{
+    margin-top: 80px;
+    /* margin-bottom: 70px; */
 }
-.cnp{
+.cnn-2 ul li{
+    color: white;
+    margin-bottom: 10px;
+    list-style-type: initial;
     font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 300;
-    margin-top: 50px;
 }
-.cn1{
-    background-color: #2C2C2C;
-    padding: 50px;
-    width: 60%;
-}
-@media (max-width: 1290px) {
-    .cn1{
-        border-bottom-left-radius: 15px;
-        width: 100%;
-        border-bottom-right-radius: 15px;
-    }
-}
-.btt{
-    padding: 30px 100px;
-    background-color: #323232;
-    border: none;
-    font-size: 20px;
-    color: #FFFFFF;
-    font-weight: 300;
-    line-height: 28px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    display: flex;
-    gap: .5em;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-@media (max-width: 1554px) {
-    .btt{
-        padding: 30px 80px;
-    }
-}
-@media (max-width: 1427px) {
-    .btt{
-        padding: 30px 50px;
-    }
-}
-@media (max-width: 415px) {
-    .btt{
-        padding: 20px 8px;
-    }
-}
-.ad{
+
+.tray{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-@media (max-width: 1290px) {
-    .ad{
-        flex-direction: column;
+.tray h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 41.6px;
+    margin-bottom: 50px;
+    color: white;
+}
+.tray p{
+    color: #FA5D29;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 1px solid #FA5D29;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+.cnn-3{
+    background-color: #fff;
+    height: auto;
+    padding: 50px;
+    border-radius: 15px;
+    width: 50%;
+}
+@media (max-width: 1253px) {
+    .cnn-3{
+        width: 100%;
     }
 }
-.ad p{
-    font-size: 14px;
+.cnn-3 h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 41.6px;
+    margin-bottom: 50px;
+}
+.tr3{
+    display: flex;
+}
+.tr3 p{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+}
+.cnn-3 a{
+    border: 1px solid black;
+    padding: 25px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 72px;
+    border-radius: 10px;
+}
+.cnn-3 a:hover{
+    background-color: black;
     color: white;
-    font-weight: 300;
-    line-height: 22px;
-    font-style: normal;
+    transition: 1s;
+}
+@media (max-width: 389px) {
+    .cnn-3 a{
+        padding: 15px 40px;
+        font-size: 10px;
+    }
+}
+.cnn-3 ul{
+    margin-top: 80px;
+}
+.cnn-3 ul li{
     margin-bottom: 10px;
-} 
-
+    list-style-type: initial;
+    font-size: 14px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    align-items: center;
+}
+.right-end{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.right-end p{
+    border-bottom: 2px solid grey;
+    font-weight: 600;
+}
+@media (max-width: 369px) {
+    .end{
+        gap: 0px;
+    }
+}
 .ft-header{
     padding: 50px;
     font-size: 14px;

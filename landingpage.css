@@ -69,6 +69,7 @@ nav{
     width: 90%;
     background-color: #DDDDDD;
     border: none;
+    outline: none;
 }
 .fa-magnifying-glass{
     font-size: 14px;
