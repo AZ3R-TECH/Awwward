@@ -424,26 +424,6 @@ nav{
     list-style-type: initial;
     font-size: 14px;
 }
-.end{
-    display: flex;
-    justify-content: center;
-    gap: .5em;
-    align-items: center;
-}
-.right-end{
-    display: flex;
-    align-items: center;
-    gap: .5em;
-}
-.right-end p{
-    border-bottom: 2px solid grey;
-    font-weight: 600;
-}
-@media (max-width: 369px) {
-    .end{
-        gap: 0px;
-    }
-}
 .ft-header{
     padding: 50px;
     font-size: 14px;
