@@ -204,9 +204,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.con-1 p{
-    font-size: 14px;
+} 
+
+.mm p{
+    font-size: 3000000px;
     font-weight: 400;
     color: #222222;
     margin-bottom: 20px;
@@ -215,7 +216,7 @@ nav{
     font-weight: 600;
     font-size: 50px;
     color: #222222;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 @media (max-width: 1290px) {
     .mm h1{
@@ -236,7 +237,38 @@ nav{
     .con-2{
         flex-direction: column;
     }
+    .con-1{
+        flex-direction: column;
+    }
 }
+/* .tero{
+    display: flex; 
+    gap: .5em;
+    align-items: center;  
+    justify-content: end;
+}
+.tot{
+    margin-top: 20px;
+    line-height: 18.2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.danger{
+    width: 50%;
+    background-color: black;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end; 
+     align-items: center; 
+     padding: 2px;
+}
+.danger2{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+} */
 /* first */
 .cnn-1{
     background-color: #222222;

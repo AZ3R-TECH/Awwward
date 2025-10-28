@@ -205,6 +205,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 1253px) {
+    .con-1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 .con-1 p{
     font-size: 14px;
     font-weight: 400;
@@ -215,7 +221,31 @@ nav{
     font-weight: 600;
     font-size: 50px;
     color: #222222;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+}
+.mm{
+    width: 60%;
+    margin-bottom: 90px;
+}
+.tot p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.toto{
+    width: 60%;
+    background-color: black;
+    height: 45px;
+    border-radius: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+}
+@media (max-width: 1253px) {
+    .mm{
+        width: 100%;
+        margin-bottom: 40px;
+    }
 }
 @media (max-width: 1290px) {
     .mm h1{
@@ -354,11 +384,18 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 412px) {
+    .tray{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
 .tray h1{
     font-size: 32px;
     font-weight: 600;
     line-height: 41.6px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: white;
 }
 .tray p{
@@ -369,6 +406,7 @@ nav{
     border: 1px solid #FA5D29;
     border-radius: 4px;
     padding: 2px 5px;
+    margin-bottom: 25px;
 }
 .cnn-3{
     background-color: #fff;
