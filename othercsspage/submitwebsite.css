@@ -564,27 +564,27 @@ nav{
 }
 @media (max-width: 1933px) {
     .tt{
-        left: 35%;
+        left: 45%;
     }
 }
 @media (max-width: 1331px) {
     .tt{
-        left: 30%;
+        left: 40%;
     }
 }
 @media (max-width: 1192px) {
     .tt{
-        left: 25%;
+        left: 35%;
     }
 }
 @media (max-width: 795px) {
     .tt{
-        left: 15%;
+        left: 30%;
     }
 }
 @media (max-width: 625px) {
     .tt{
-        left: 5%;
+        left: 25%;
     }
 }
 @media (max-width: 572px) {
