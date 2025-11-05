@@ -74,7 +74,12 @@
     
           <div class="logo">
             <div style="display: flex;align-items: center;gap: .5em;">
-              <i class="fa-solid fa-bars"></i>
+                 <!-- Hamburger icon (added) -->
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
               <h2><a href="../index.html">W .</a></h2>
             </div>
             <ul class="menu-list">
@@ -324,4 +329,15 @@
         </div>
       </footer>
 </body>
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const menuList = document.querySelector('.menu-list');
+  const rightSideBtn = document.querySelector('.right-side-btn');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    menuList.classList.toggle('active');
+    rightSideBtn.classList.toggle('active');
+  });
+</script>
 </html>
